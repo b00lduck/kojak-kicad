@@ -1,2 +1,5 @@
 # kojak-kicad
-Kojak siren with kicad
+Kojak-Sirene mit KiCad
+
+## PCB-Foto
+[kojak.png]
