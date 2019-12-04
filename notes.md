@@ -38,10 +38,10 @@
  * Footprints zuordnen
 
 ### 10:10
- * ggf "netlist"-Branch aufmachen
+ * ggf. "netlist"-Branch aufmachen
  * Layouteditor öffnen und zeigen, dass Bauteile alle durcheinander sind
- * "ratsnest"-Branch aufmachen
  * Löcher hinzufügen (MountingHole 2.1mm)
+ * ggf. "ratsnest"-Branch aufmachen 
  * Netzklasse ändern (Clearance 0.2, TrackWidth 0.5)
  * Routen
 
