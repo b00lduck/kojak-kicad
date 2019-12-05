@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Transistor_BJT:BC546 Q1
+L kojak-rescue:BC546-Transistor_BJT Q1
 U 1 1 5DDDC5A6
 P 3075 2975
 F 0 "Q1" H 3266 3021 50  0000 L CNN
@@ -29,7 +29,7 @@ F 7 "spice-models.lib" H 3075 2975 50  0001 C CNN "Spice_Lib_File"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC546 Q2
+L kojak-rescue:BC546-Transistor_BJT Q2
 U 1 1 5DDDCBE1
 P 4500 2975
 F 0 "Q2" H 4691 3021 50  0000 L CNN
@@ -44,7 +44,7 @@ F 7 "spice-models.lib" H 4500 2975 50  0001 C CNN "Spice_Lib_File"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C2
+L kojak-rescue:CP-Device C2
 U 1 1 5DDDE1A8
 P 3275 2650
 F 0 "C2" V 3530 2650 50  0000 C CNN
@@ -55,7 +55,7 @@ F 3 "~" H 3275 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R2
+L kojak-rescue:R-Device R2
 U 1 1 5DDDF0A3
 P 3575 2075
 F 0 "R2" H 3645 2121 50  0000 L CNN
@@ -66,7 +66,7 @@ F 3 "~" H 3575 2075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L kojak-rescue:R-Device R4
 U 1 1 5DDE0F87
 P 4600 2350
 F 0 "R4" H 4670 2396 50  0000 L CNN
@@ -77,7 +77,7 @@ F 3 "~" H 4600 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L kojak-rescue:R-Device R1
 U 1 1 5DDE131E
 P 2975 2350
 F 0 "R1" H 3045 2396 50  0000 L CNN
@@ -88,7 +88,7 @@ F 3 "~" H 2975 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D1
+L kojak-rescue:LED-Device D1
 U 1 1 5DDE197B
 P 2975 1925
 F 0 "D1" V 3014 1808 50  0000 R CNN
@@ -104,7 +104,7 @@ F 8 "spice-models.lib" H 2975 1925 50  0001 C CNN "Spice_Lib_File"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D2
+L kojak-rescue:LED-Device D2
 U 1 1 5DDE2C4A
 P 4600 1925
 F 0 "D2" V 4639 1808 50  0000 R CNN
@@ -149,7 +149,7 @@ Wire Wire Line
 	3575 2650 3900 2975
 Connection ~ 3575 2650
 $Comp
-L Device:CP C3
+L kojak-rescue:CP-Device C3
 U 1 1 5DDDD48B
 P 4200 2650
 F 0 "C3" V 3945 2650 50  0000 C CNN
@@ -187,7 +187,7 @@ Wire Wire Line
 Wire Wire Line
 	3025 4575 3025 4800
 $Comp
-L Device:C C5
+L kojak-rescue:C-Device C5
 U 1 1 5DE158B7
 P 4200 5000
 F 0 "C5" V 3948 5000 50  0000 C CNN
@@ -198,7 +198,7 @@ F 3 "~" H 4200 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor_BJT:BC557 Q3
+L kojak-rescue:BC557-Transistor_BJT Q3
 U 1 1 5DDDA224
 P 3125 5000
 F 0 "Q3" H 3000 5150 50  0000 L CNN
@@ -213,7 +213,7 @@ F 7 "spice-models.lib" H 3125 5000 50  0001 C CNN "Spice_Lib_File"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C6
+L kojak-rescue:C-Device C6
 U 1 1 5DE17E38
 P 4450 5225
 F 0 "C6" H 4335 5179 50  0000 R CNN
@@ -245,7 +245,7 @@ Connection ~ 4900 5000
 Wire Wire Line
 	4900 4800 4900 5000
 $Comp
-L Device:CP C4
+L kojak-rescue:CP-Device C4
 U 1 1 5DE29061
 P 5750 2000
 F 0 "C4" H 5868 2046 50  0000 L CNN
@@ -256,7 +256,7 @@ F 3 "~" H 5750 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R5
+L kojak-rescue:R-Device R5
 U 1 1 5DE29718
 P 5525 2650
 F 0 "R5" V 5318 2650 50  0000 C CNN
@@ -267,7 +267,7 @@ F 3 "~" H 5525 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R6
+L kojak-rescue:R-Device R6
 U 1 1 5DE29C64
 P 3450 4775
 F 0 "R6" V 3243 4775 50  0000 C CNN
@@ -281,7 +281,7 @@ Wire Wire Line
 	5600 2000 5525 2000
 Connection ~ 2975 1700
 $Comp
-L Device:CP C1
+L kojak-rescue:CP-Device C1
 U 1 1 5DE3576B
 P 1650 2775
 F 0 "C1" H 1768 2821 50  0000 L CNN
@@ -297,7 +297,7 @@ Connection ~ 1650 2475
 Wire Wire Line
 	1650 2925 1650 3075
 $Comp
-L Device:R R3
+L kojak-rescue:R-Device R3
 U 1 1 5DE37F7C
 P 3900 2075
 F 0 "R3" H 3970 2121 50  0000 L CNN
@@ -311,7 +311,7 @@ F 6 "Y" H 3900 2075 50  0001 C CNN "Spice_Netlist_Enabled"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R7
+L kojak-rescue:R-Device R7
 U 1 1 5DE388ED
 P 3825 5000
 F 0 "R7" V 3618 5000 50  0000 C CNN
@@ -322,7 +322,7 @@ F 3 "~" H 3825 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R8
+L kojak-rescue:R-Device R8
 U 1 1 5DE394DF
 P 6425 2000
 F 0 "R8" H 6355 1954 50  0000 R CNN
@@ -333,7 +333,7 @@ F 3 "~" H 6425 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor_BJT:TIP41C Q4
+L kojak-rescue:TIP41C-Transistor_BJT Q4
 U 1 1 5DE19CEE
 P 4800 5450
 F 0 "Q4" H 4991 5496 50  0000 L CNN
@@ -349,7 +349,7 @@ F 8 "2 1 3" H 4800 5450 50  0001 C CNN "Spice_Node_Sequence"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Battery BT1
+L kojak-rescue:Battery-Device BT1
 U 1 1 5DE79479
 P 1200 2775
 F 0 "BT1" H 1308 2821 50  0000 L CNN
@@ -371,7 +371,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 3075 1650 3075
 $Comp
-L Device:Speaker LS1
+L kojak-rescue:Speaker-Device LS1
 U 1 1 5DE85C66
 P 5100 4700
 F 0 "LS1" H 5270 4696 50  0000 L CNN
@@ -391,7 +391,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 2000 6000 2000
 $Comp
-L power:GND #PWR0101
+L kojak-rescue:GND-power #PWR0101
 U 1 1 5DE9DD96
 P 2975 3300
 F 0 "#PWR0101" H 2975 3050 50  0001 C CNN
@@ -402,7 +402,7 @@ F 3 "" H 2975 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0102
+L kojak-rescue:VCC-power #PWR0102
 U 1 1 5DE9EFDF
 P 2975 1575
 F 0 "#PWR0102" H 2975 1425 50  0001 C CNN
@@ -428,7 +428,7 @@ PITCH
 Wire Wire Line
 	2975 3175 2975 3225
 $Comp
-L power:GND #PWR0103
+L kojak-rescue:GND-power #PWR0103
 U 1 1 5DEC0F44
 P 6650 2000
 F 0 "#PWR0103" H 6650 1750 50  0001 C CNN
@@ -443,7 +443,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 3175 4600 3225
 $Comp
-L power:VCC #PWR0104
+L kojak-rescue:VCC-power #PWR0104
 U 1 1 5DEC82DF
 P 5525 2000
 F 0 "#PWR0104" H 5525 1850 50  0001 C CNN
@@ -461,7 +461,7 @@ Connection ~ 6100 2650
 Wire Wire Line
 	5675 2650 6100 2650
 $Comp
-L power:VCC #PWR0105
+L kojak-rescue:VCC-power #PWR0105
 U 1 1 5DED7C6F
 P 1650 2350
 F 0 "#PWR0105" H 1650 2200 50  0001 C CNN
@@ -474,7 +474,7 @@ $EndComp
 Wire Wire Line
 	1650 2475 1650 2350
 $Comp
-L power:GND #PWR0106
+L kojak-rescue:GND-power #PWR0106
 U 1 1 5DEDAC94
 P 1650 3150
 F 0 "#PWR0106" H 1650 2900 50  0001 C CNN
@@ -532,7 +532,7 @@ Audio frequency oscillator
 Wire Notes Line
 	2575 6050 5725 6050
 $Comp
-L power:GND #PWR0107
+L kojak-rescue:GND-power #PWR0107
 U 1 1 5DF03230
 P 4900 5800
 F 0 "#PWR0107" H 4900 5550 50  0001 C CNN
@@ -545,7 +545,7 @@ $EndComp
 Wire Wire Line
 	4900 5650 4900 5800
 $Comp
-L power:VCC #PWR0108
+L kojak-rescue:VCC-power #PWR0108
 U 1 1 5DF0B033
 P 4900 4550
 F 0 "#PWR0108" H 4900 4400 50  0001 C CNN
@@ -558,7 +558,7 @@ $EndComp
 Wire Wire Line
 	4900 4700 4900 4550
 $Comp
-L power:VCC #PWR0109
+L kojak-rescue:VCC-power #PWR0109
 U 1 1 5DF0CC2E
 P 3025 4575
 F 0 "#PWR0109" H 3025 4425 50  0001 C CNN
@@ -577,7 +577,7 @@ Tatort
 Wire Wire Line
 	6000 2000 6000 2050
 $Comp
-L pspice:0 #GND0101
+L kojak-rescue:0-pspice #GND0101
 U 1 1 5DE7E19A
 P 1175 3900
 F 0 "#GND0101" H 1175 3800 50  0001 C CNN
@@ -588,7 +588,7 @@ F 3 "~" H 1175 3900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR0110
+L kojak-rescue:GND-power #PWR0110
 U 1 1 5DE7E79F
 P 1300 3900
 F 0 "#PWR0110" H 1300 3650 50  0001 C CNN
@@ -601,7 +601,7 @@ $EndComp
 Wire Wire Line
 	1175 3900 1300 3900
 $Comp
-L Switch:SW_SPDT SW1
+L kojak-rescue:SW_SPDT-Switch SW1
 U 1 1 5DE7E706
 P 6100 2250
 F 0 "SW1" V 6475 2325 50  0000 R CNN
